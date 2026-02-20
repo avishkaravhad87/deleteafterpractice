@@ -6,7 +6,8 @@ data:
   default.conf: |
     server {
       listen 80;
+
       location / {
-        proxy_pass http://tomcat:8080;
+        proxy_pass http://tomcat:8080/student/;
       }
     }
