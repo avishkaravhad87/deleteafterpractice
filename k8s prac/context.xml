@@ -1,0 +1,10 @@
+<Resource name="jdbc/studentdb"
+          auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="20"
+          maxIdle="5"
+          maxWaitMillis="-1"
+          username="root"
+          password="root"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          url="jdbc:mysql://mysql:3306/studentdb?useSSL=false&allowPublicKeyRetrieval=true"/>
